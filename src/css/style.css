@@ -1,0 +1,79 @@
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container .card {
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.container .card .informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card .informations .photo {
+    width: 80px;
+    border-radius: 50%;
+    margin: 40px 0 20px 0;
+}
+
+.container .card .informations .name {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 0 5px 0;
+}
+
+.container .card .informations .city {
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 0 20px 0;
+}
+
+.container .card .informations .description {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin: 0 0 20px 0;
+}
+
+.container .card .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .card button {
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin: 0 auto;
+    width: 280px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .card button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
